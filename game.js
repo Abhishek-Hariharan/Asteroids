@@ -665,6 +665,7 @@ Asteroid = function () {
   this.visible = true;
   this.scale = 6;
   this.postMove = this.wrapPostMove;
+  this.premove=false;
 
   this.collidesWith = ["ship", "bullet", "bigalien", "alienbullet"];
 
