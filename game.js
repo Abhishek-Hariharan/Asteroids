@@ -2,7 +2,7 @@
 //
 // Copyright (c) 2010 Doug McInnes
 //
-
+//new commit in master
 KEY_CODES = {
   32: 'space',
   37: 'left',
@@ -670,6 +670,7 @@ Asteroid = function () {
   this.collidesWith = ["ship", "bullet", "bigalien", "alienbullet"];
 
   this.collision = function (other) {
+    
     SFX.explosion();
     if (other.name == "bullet") Game.score += 120 / this.scale;
     this.scale /= 3;
