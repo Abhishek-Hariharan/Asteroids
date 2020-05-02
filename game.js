@@ -664,7 +664,6 @@ Asteroid = function () {
   this.solid = true;
   this.visible = true;
   this.scale = 6;
-  this.onevariabel=false;
   this.postMove = this.wrapPostMove;
   this.premove=false;
 
