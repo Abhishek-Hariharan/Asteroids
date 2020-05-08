@@ -3,6 +3,7 @@
 // Copyright (c) 2010 Doug McInnes
 //
 //commit before previous head of master branch
+//commit after creating git hub
 KEY_CODES = {
   32: 'space',
   37: 'left',
